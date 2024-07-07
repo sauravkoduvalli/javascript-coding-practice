@@ -1,32 +1,22 @@
-// perform basic arithmetic operations.
+// perform basic arithmetic operations using arrow function.
 
-let number1= 9;
-let number2= 6;
+let number1 = 9;
+let number2 = 6;
 
 // addition
-function addition(num1, num2) {
-    return num1 + num2;
-}
+const addition = (num1, num2) => num1 + num2;
 
 // subtraction
-function subtraction(num1, num2){
-    return num1 - num2;
-}
+const subtraction = (num1, num2) => num1 - num2;
 
 // multiplication
-function multiplication(num1, num2) {
-    return num1 * num2;
-}
+const multiplication = (num1, num2) => num1 * num2;
 
 // division
-function division(num1, num2) {
-    return num1 / num2;
-}
+const division = (num1, num2) => num1 / num2;
 
 // modulus
-function modulus(num1, num2) {
-    return num1 % num2;
-}
+const modulus = (num1, num2) => num1 % num2;
 
 const additionResult = addition(number1, number2);
 const subtractionResult = subtraction(number1, number2);
