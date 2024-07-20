@@ -1,4 +1,7 @@
-// perform basic arithmetic operations using arrow function.
+// operations that perform basic arithmetic operations.
+
+// created function for each operations and pass argumnets as parameters,
+// using arrow function to return result.
 
 let number1 = 4;
 let number2 = 2;
@@ -22,13 +25,14 @@ const modulus = (num1, num2) => num1 % num2;
 const exponentiation = (num1, num2) => num1 ** num2;
 
 // increment - variable is incremented by 1
-const increment = (number1) => ++number1; // pre-increment
+const increment = (num1) => ++num1; // pre-increment
 
 // decremrnt
-const decrement = (number1) => --number1; // pre-decrement
+const decrement = (num1) => --num1; // pre-decrement
 
 const additionResult = addition(number1, number2);
-const subtractionResult = subtraction(number1, number2);``
+const subtractionResult = subtraction(number1, number2);
+``;
 const multiplicationResult = multiplication(number1, number2);
 const divisionResult = division(number1, number2);
 const modulusResult = modulus(number1, number2);
@@ -36,11 +40,11 @@ const exponentiationResult = exponentiation(number1, number2); // number1 to the
 const incrementResult = increment(number1);
 const decrementResult = decrement(number1);
 
-console.log("Addition of number1 and number2 is ", additionResult);
-console.log("Subtraction of number1 and number2 is ", subtractionResult);
-console.log("Multiplication of number1 and number2 is ", multiplicationResult);
-console.log("Division of number1 and number2 is ", divisionResult);
-console.log("Modulus of number1 and number2 is ", modulusResult);
-console.log("Exponentiation of number1 and number2 is ", exponentiationResult);
-console.log("Increment of number1 is ", incrementResult);
-console.log("decrement of number1 is ", decrementResult);
+console.log("Addition result is ", additionResult);
+console.log("Subtraction result is ", subtractionResult);
+console.log("Multiplication result is ", multiplicationResult);
+console.log("Division result is ", divisionResult);
+console.log("Modulus result is ", modulusResult);
+console.log("Exponentiation result is ", exponentiationResult);
+console.log("Increment result is ", incrementResult);
+console.log("decrement result is ", decrementResult);
